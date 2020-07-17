@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Build') {
 			steps {
-				sh "./build.sh all jenkins"
+				sh "./build.sh"
 			}
 		}
 	}
